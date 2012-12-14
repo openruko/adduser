@@ -51,8 +51,8 @@ async.series([
         new Buffer(':' + key).toString('base64')
     },
     body: JSON.stringify({
-      email: arr[0][0],
-      name: arr[1][0],
+      name: arr[0][0],
+      email: arr[1][0],
       password: arr[2][0]
     })
   }, function(err, resp, body){
