@@ -1,0 +1,17 @@
+{
+  "name": "adduser",
+  "version": "0.0.0",
+  "description": "CLI to add users in OpenRuko",
+  "main": "index.js",
+  "bin": {
+    "openruko-adduser": "index.js"
+  },
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.12.0",
+    "read": "~1.0.4",
+    "async": "~0.1.22"
+  }
+}
